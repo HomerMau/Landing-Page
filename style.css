@@ -33,7 +33,14 @@ body {
   font-family: 'Sarala', sans-serif;
   color: #FFF2E7;
   font-weight: 400;
-  font-size: 18px
+  font-size: 18px;
+  border-radius: 10px;
+  transition: background-color 200ms;
+
+}
+
+.cabecalho-menu-item:hover{
+  background-color: rgba(236, 214, 196, 0.53);
 }
 
 .conteudo {
@@ -79,6 +86,7 @@ body {
   font-weight: 400;
   font-size: 24px;
   color: #2F2325;
+  transition: background-color 200ms;
 }
 
 .conteudo-principal-escrito-botao:hover {
